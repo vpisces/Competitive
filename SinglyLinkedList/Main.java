@@ -12,9 +12,12 @@ public class Main {
         sLL2.createSinglyLinkedList("Hello");
         sLL2.traverseSinglyLinkedList();
 
+
         SinglyLinkedList<Product> products = new SinglyLinkedList<Product>();
-        Product product = new Product(1, "iPhone 14 Pro", "iphone_14_pro", 1200);
+        Product product = new Product(1, "iPhone 14 Pro",
+             "iphone_14_pro", 1200);
         products.createSinglyLinkedList(product);
         products.traverseSinglyLinkedList();
     }
+
 }
