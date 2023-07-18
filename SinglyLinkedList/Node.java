@@ -1,10 +1,6 @@
 package SinglyLinkedList;
 
-public class Node {
-    int data;
+public class Node<T> {
+    T value;
     Node next;
-    
-    Node(int data) {
-        this.data = data;
-    }
 }
